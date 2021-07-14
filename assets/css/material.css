@@ -1,0 +1,105 @@
+/* MATERIAL \ ME - BRYTCH */
+.profile-header__avatar__image {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 10px 15px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.profile-header__avatar__position {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -30px;
+    color: #fff;
+}
+
+.profile-header__avatar__position .motto {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.profile-header__avatar__position .lastLogin {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.profile-header__avatar__position .creditsAvailable {
+    margin-top: 10px;
+    float: left;
+    margin-left: -1px;
+}
+
+.profile-header__avatar__position .creditsAvailable .credits {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.profile-header__avatar__position .creditsAvailable .credits .creditsIcon {
+    background: url(https://i.imgur.com/xl4sJwa.gif) no-repeat;
+    height: 15px;
+    width: 15px;
+    float: left;
+    padding-right: 5px;
+}
+
+.profile-header__avatar__position .creditsAvailable .duckets {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.profile-header__avatar__position .creditsAvailable .duckets .ducketsIcon {
+    background: url(https://i.imgur.com/O0lGiNl.gif) no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    padding-right: 5px;
+}
+
+.profile-header__avatar__position .creditsAvailable .diamonds {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.profile-header__avatar__position .creditsAvailable .diamonds .diamondsIcon {
+    background: url(https://i.imgur.com/L7hKLj5.gif) no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    padding-right: 5px;
+}
+
+#profileCheckIn {
+    position: absolute;
+    right: 20px;
+    width: none;
+    padding: 10px 30px;
+    line-height: 54px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.mebg .ripping {
+	-webkit-filter: drop-shadow(2px 1px 0 #fff) drop-shadow(-2px 1px 0 #fff) drop-shadow(0 -2px 0 #fff);
+}
+.mebg.brytch {
+    background: url(/nitro/assets/images/hotelview/reception_flathotel_backdrop_right.png) no-repeat;
+    background-position: bottom;
+    background-color: #124ba1;
+}
